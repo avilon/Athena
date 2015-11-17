@@ -4,6 +4,10 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    //Q_INIT_RESOURCE(athena);
+
+    a.setApplicationName("Athena");
+
     MainWindow w;
     w.show();
 

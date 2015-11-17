@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    void loadSettings();
+    void saveSettings();
 };
 
 #endif // MAINWINDOW_H
