@@ -3,6 +3,8 @@
 
 #include <QWidget>
 
+class Engine;
+
 class BoardView : public QWidget
 {
     Q_OBJECT

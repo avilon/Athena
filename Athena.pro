@@ -14,9 +14,26 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    boardview.cpp
+    boardview.cpp \
+    hydra/board.cpp \
+    hydra/engine.cpp \
+    hydra/fentokenizer.cpp \
+    hydra/gamelaw.cpp \
+    hydra/move.cpp \
+    hydra/movegen.cpp \
+    hydra/movelist.cpp \
+    hydra/position.cpp
 
 HEADERS  += mainwindow.h \
-    boardview.h
+    boardview.h \
+    hydra/board.h \
+    hydra/common.h \
+    hydra/engine.h \
+    hydra/fentokenizer.h \
+    hydra/gamelaw.h \
+    hydra/move.h \
+    hydra/movegen.h \
+    hydra/movelist.h \
+    hydra/position.h
 
 FORMS    += mainwindow.ui
